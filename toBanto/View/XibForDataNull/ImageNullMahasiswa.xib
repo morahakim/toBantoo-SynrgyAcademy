@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageNullMahasiswa" customModule="toBanto" customModuleProvider="target">
+            <connections>
+                <outlet property="btnDonasiNul" destination="Dum-e5-fCJ" id="KDc-5M-UdM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="446"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageNil" translatesAutoresizingMaskIntoConstraints="NO" id="4FR-LB-jeA">
+                    <rect key="frame" x="51" y="0.0" width="240" height="240"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="240" id="0qv-N4-SPW"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyCampaign Kosong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBP-5a-dir">
+                    <rect key="frame" x="90" y="248" width="162" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buatlah penelitian pertamamu dan dapatkan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUu-5U-uJx">
+                    <rect key="frame" x="29" y="277" width="285" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.44705882352941173" green="0.52156862745098043" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pendanaan secepatnya!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cb-0j-OQ0">
+                    <rect key="frame" x="94" y="296" width="154" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.44705882352941173" green="0.52156862745098043" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dum-e5-fCJ">
+                    <rect key="frame" x="11" y="325" width="320" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="RS7-9Z-CnI"/>
+                    </constraints>
+                    <state key="normal" title="Buat Sekarang!">
+                        <color key="titleColor" red="0.1764705882352941" green="0.62352941176470589" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="atau akses versi desktop melalui" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wr5-w6-Fpx">
+                    <rect key="frame" x="93" y="389" width="157" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.60392156862745094" green="0.6588235294117647" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="go7-51-3La">
+                    <rect key="frame" x="77" y="401" width="188" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <state key="normal" title="http://tobantoo-admin.herokuapp.com/">
+                        <color key="titleColor" red="0.60392156862745094" green="0.6588235294117647" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnLinkWeb:" destination="-1" eventType="touchUpInside" id="inb-do-9RS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="uUu-5U-uJx" secondAttribute="trailing" constant="29" id="81H-YD-x9B"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Dum-e5-fCJ" secondAttribute="trailing" constant="12" id="I5q-PO-7k6"/>
+                <constraint firstItem="DBP-5a-dir" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="90" id="IlQ-9O-oFo"/>
+                <constraint firstItem="3cb-0j-OQ0" firstAttribute="top" secondItem="uUu-5U-uJx" secondAttribute="bottom" constant="2" id="LDG-Yk-kho"/>
+                <constraint firstItem="go7-51-3La" firstAttribute="top" secondItem="wr5-w6-Fpx" secondAttribute="bottom" id="LyY-WW-brR"/>
+                <constraint firstItem="wr5-w6-Fpx" firstAttribute="top" secondItem="Dum-e5-fCJ" secondAttribute="bottom" constant="12" id="PTi-Hk-HoU"/>
+                <constraint firstItem="wr5-w6-Fpx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="93" id="T6E-yK-V49"/>
+                <constraint firstItem="DBP-5a-dir" firstAttribute="top" secondItem="4FR-LB-jeA" secondAttribute="bottom" constant="8" id="ZFV-q3-86N"/>
+                <constraint firstItem="uUu-5U-uJx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="29" id="asB-WX-DVe"/>
+                <constraint firstItem="3cb-0j-OQ0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="94" id="bWu-UC-249"/>
+                <constraint firstItem="Dum-e5-fCJ" firstAttribute="top" secondItem="3cb-0j-OQ0" secondAttribute="bottom" constant="12" id="gA5-2V-Ybh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4FR-LB-jeA" secondAttribute="trailing" constant="52" id="gTz-c3-VVG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="wr5-w6-Fpx" secondAttribute="trailing" constant="93" id="h71-T2-9VI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="DBP-5a-dir" secondAttribute="trailing" constant="91" id="kSL-oq-oVK"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="go7-51-3La" secondAttribute="trailing" constant="78" id="ocQ-cc-HoL"/>
+                <constraint firstItem="uUu-5U-uJx" firstAttribute="top" secondItem="DBP-5a-dir" secondAttribute="bottom" constant="8" symbolic="YES" id="orV-nj-axW"/>
+                <constraint firstItem="4FR-LB-jeA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="51" id="pNe-5Q-RjA"/>
+                <constraint firstItem="Dum-e5-fCJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="11" id="rUb-Ry-UU0"/>
+                <constraint firstItem="4FR-LB-jeA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uWc-Oj-vK5"/>
+                <constraint firstItem="go7-51-3La" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="77" id="yjq-Uf-WGL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3cb-0j-OQ0" secondAttribute="trailing" constant="95" id="yva-2W-NFl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="142" y="87"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="imageNil" width="240" height="240"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

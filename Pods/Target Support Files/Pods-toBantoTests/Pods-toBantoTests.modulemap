@@ -1,0 +1,6 @@
+framework module Pods_toBantoTests {
+  umbrella header "Pods-toBantoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
