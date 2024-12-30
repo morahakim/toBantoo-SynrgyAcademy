@@ -5,8 +5,8 @@ workflows:
       xcode: latest
       cocoapods: default
       vars:
-          XCODE_PROJECT: "toBantoo-SynrgyAcademy.xcodeproj" # Isikan nama project Anda.
-          XCODE_SCHEME: "toBantoo-SynrgyAcademy" # Isikan nama scheme project Anda.
+          XCODE_PROJECT: "toBanto.xcworkspace" # Isikan nama project Anda.
+          XCODE_SCHEME: "toBanto" # Isikan nama scheme project Anda.
     scripts:
       - name: Run tests
         script: |
